@@ -1,0 +1,8 @@
+The ModelMapper Dependency version 3.2.1 worked fine instead of new versioin 3.2.2
+
+Adding the lombok dependency in the initializing time did not work me, after removing all lombok plugins and
+dependency and again adding lombok dependency worked fine
+
+Make sure the Getters and Setters. Missed for ErrorDetails class, then spring boot used the default handler
+
+AuthenticationManager bean has to be created explicitly like ModelMapper
