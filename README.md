@@ -11,3 +11,5 @@ Controller Layer: Handled incoming HTTP requests and responses, serving as the i
 Service Layer: Contained the core business logic of the application, ensuring clean and reusable code.
 Repository Layer: Managed database interactions using Spring Data JPA, enabling seamless communication with the underlying MySQL database.
 This structured approach, combined with the use of modern security practices and a well-defined role-based access control system, ensured that the application was scalable, secure, and easy to maintain.
+
+//Ajay.K
