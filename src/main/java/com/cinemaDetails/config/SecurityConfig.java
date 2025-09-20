@@ -24,6 +24,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableMethodSecurity
 public class SecurityConfig {
     //Mentioning to spring security to use the custom userDetailsService
+    //------>
     private UserDetailsService userDetailsService;
     private JWTAuthenticationEntryPoint jwtAuthenticationEntryPoint;
     private JWTAuthenticationFilter jwtAuthenticationFilter;
